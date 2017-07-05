@@ -13,6 +13,5 @@ fname VARCHAR(30),
 lname VARCHAR(30),
 age INT NOT NULL,
 gpa DOUBLE(3,2),
-PRIMARY KEY (id),
-FOREIGN KEY (schoolID) REFERENCES school(schoolID)
+PRIMARY KEY (id)
 );
